@@ -188,10 +188,10 @@ namespace ETS2_DualSenseAT_Mod
             p.instructions = new Instruction[4];
 
             p.instructions[0].type = InstructionType.TriggerUpdate;
-            p.instructions[0].parameters = new object[] { controllerIndex, Trigger.Right, TriggerMode.CustomTriggerValue, CustomTriggerValueMode.VibrateResistance, 10,190,15,0,0,0,0 };
+            p.instructions[0].parameters = new object[] { controllerIndex, Trigger.Right, TriggerMode.CustomTriggerValue, CustomTriggerValueMode.Rigid, 50,76,93,125,150,174,199 }; //(50)(76)(93)(125)(150)(174)(199)
 
             p.instructions[1].type = InstructionType.TriggerUpdate;
-            p.instructions[1].parameters = new object[] { controllerIndex, Trigger.Left, TriggerMode.Bow, 1,3,5,3,0,0,0 };
+            p.instructions[1].parameters = new object[] { controllerIndex, Trigger.Left, TriggerMode.CustomTriggerValue, CustomTriggerValueMode.Rigid, 50, 76, 93, 125, 150, 174, 199 }; //(50)(76)(93)(125)(150)(174)(199)
 
 
 
